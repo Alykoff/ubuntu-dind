@@ -1,5 +1,5 @@
 # Auto generated Dockerfile, please dont edit
-FROM ubuntu:precise
+FROM ubuntu:%VERSION%
 MAINTAINER Nitrous.IO <hello@nitrous.io>
 
 RUN \

@@ -1,3 +1,4 @@
+# Auto generated Dockerfile, please dont edit
 FROM ubuntu:utopic
 MAINTAINER Nitrous.IO <hello@nitrous.io>
 
