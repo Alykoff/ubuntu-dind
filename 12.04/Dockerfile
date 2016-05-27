@@ -16,5 +16,7 @@ RUN \
 
 COPY ./dind /dind
 
+RUN chmod +x /dind
+
 VOLUME /var/lib/docker
 ENTRYPOINT ["/dind"]
