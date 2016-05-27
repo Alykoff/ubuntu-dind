@@ -17,4 +17,4 @@ RUN \
 COPY ./dind /dind
 
 VOLUME /var/lib/docker
-ENTRYPOINT ["/dind"]
+ENTRYPOINT ["/dind", "docker", "-d"]
